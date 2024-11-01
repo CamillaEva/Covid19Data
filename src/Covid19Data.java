@@ -22,15 +22,13 @@ public class Covid19Data {
 
     @Override
     public String toString() {
-        return "Covid 19 data.{" +
-                "region: " + region +
+        return  "region: " + region +
                 ", aldersgruppe: '" + aldersgruppe + '\'' +
                 ", bekræftede tilfælde: '" + bekræftedeTilfælde + '\'' +
                 ", døde: " + døde +
                 ", indlagte på intensiv afdeling: '" + indlagtePåIntensiv + '\'' +
                 ", indlagte: '" + indlagte + '\'' +
-                ", dato: '" + dato + '\'' +
-                '}';
+                ", dato: '" + dato + '\'';
     }
 }
 
