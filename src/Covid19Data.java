@@ -26,7 +26,7 @@ public class Covid19Data {
                 "region: " + region +
                 ", aldersgruppe: '" + aldersgruppe + '\'' +
                 ", bekræftede tilfælde: '" + bekræftedeTilfælde + '\'' +
-                "døde: " + døde +
+                ", døde: " + døde +
                 ", indlagte på intensiv afdeling: '" + indlagtePåIntensiv + '\'' +
                 ", indlagte: '" + indlagte + '\'' +
                 ", dato: '" + dato + '\'' +
