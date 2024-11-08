@@ -5,7 +5,7 @@ public class Main {
 
         FileHandler fileHandler = new FileHandler();
 
-        ArrayList<Covid19Data> covid19Data = fileHandler.loadAllData();
+        ArrayList<Covid19Data> covid19Data = fileHandler.loadAllDataRegion();
 
 
         for (Covid19Data covid19Data2 : covid19Data){

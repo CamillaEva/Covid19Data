@@ -20,6 +20,15 @@ public class Covid19Data {
     }
 
 
+    public String getRegion(){
+        return region;
+    }
+
+    public String getAldersgruppe(){
+        return aldersgruppe;
+    }
+
+
     @Override
     public String toString() {
         return  "region: " + region +
